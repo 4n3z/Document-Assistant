@@ -25,6 +25,8 @@ model = ChatOpenAI(
 )
 
 # Configurar Chroma con un directorio persistente para la persistencia de datos
+if not os.path.exists('ai-toolkit'):
+    os.makedirs('ai-toolkit')
 persist_directory = './ai-toolkit'  # Directorio donde se guardarán los datos
 load_db = Chroma(persist_directory=persist_directory, embedding_function=embeddings)
 

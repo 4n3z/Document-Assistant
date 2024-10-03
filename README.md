@@ -43,8 +43,8 @@ Sigue estos pasos para configurar el entorno y ejecutar la aplicación localment
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
+git clone https://github.com/4n3z/Document-Assistant.git
+cd Document-Assistant
 ```
 
 ### 2. Crear y activar un entorno virtual
@@ -97,9 +97,9 @@ python -m spacy download es_core_news_sm
 - Abre **Visual Studio Code**.
 - Instala la extensión **AI Toolkit** si aún no lo has hecho.
 - Configura el modelo ONNX:
-  - Descarga o coloca el modelo `Phi-3-mini-4k-cpu-int4-rtn-block-32-onnx` en una ubicación accesible.
-  - Sigue las instrucciones de AI Toolkit para cargar el modelo ONNX.
-- Asegúrate de que el servicio esté disponible en `http://127.0.0.1:5272/v1/`.
+  - Descarga el modelo `Phi-3-mini-4k-cpu-int4-rtn-block-32-onnx` o el que prefieras.
+  - Sigue las instrucciones de AI Toolkit para ejecutar el modelo ONNX mediante el 'Playground'.
+- Asegúrate de que el modelo sea el mismo configurado en la aplicación.
 
 ## Uso
 
@@ -108,7 +108,7 @@ python -m spacy download es_core_news_sm
 En el directorio del proyecto, inicia la aplicación de Streamlit:
 
 ```bash
-streamlit run app.py
+streamlit run scripts/chatbot.py
 ```
 
 ### 2. Interactuar con la aplicación
@@ -150,8 +150,8 @@ Cuando el usuario realiza una pregunta:
 
 ## Créditos
 
-Desarrollado por [Tu Nombre](https://github.com/tu_usuario). Si tienes preguntas o sugerencias, no dudes en contactarme.
+Desarrollado por [4n3z](https://github.com/4n3z). Si tienes preguntas o sugerencias, no dudes en contactarme.
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+Este proyecto está licenciado bajo la Licencia MIT.
