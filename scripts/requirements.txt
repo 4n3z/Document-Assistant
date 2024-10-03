@@ -1,0 +1,8 @@
+streamlit
+PyMuPDF  # Para manejar PDFs con fitz
+spacy  # Para el procesamiento de texto con el modelo de segmentación de oraciones
+langchain-openai  # Para integrar con ChatOpenAI
+langchain-community  # Para utilizar Chroma y embeddings
+langchain-core  # Para trabajar con prompts y runnables
+transformers  # Necesario para los embeddings basados en modelos de transformers
+sentence-transformers  # Para el modelo de embeddings 'paraphrase-multilingual-MiniLM-L12-v2'
