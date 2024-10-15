@@ -1,5 +1,5 @@
 
-# Asistente Documental Basado en Documentos PDF
+# Asistente Documental Basado en Documentos PDF versión 0.1.1
 
 Este proyecto es una aplicación que permite crear un asistente inteligente capaz de responder preguntas basadas en el contenido de uno o varios documentos PDF. La aplicación utiliza modelos de lenguaje y técnicas de procesamiento de lenguaje natural para analizar el contenido de los documentos, generar embeddings y proporcionar respuestas precisas a las consultas del usuario.
 
@@ -67,7 +67,7 @@ python -m venv venv
 
 ### 3. Instalar las dependencias
 
-Asegúrate de tener un archivo `requirements.txt` con las siguientes dependencias:
+Asegúrate de tener el archivo `requirements.txt` con las siguientes dependencias:
 
 ```plaintext
 streamlit
